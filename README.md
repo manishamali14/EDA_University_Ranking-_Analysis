@@ -17,11 +17,11 @@ Dataset: [World University Rankings](https://www.kaggle.com/datasets/mylesoneill
 
 ## Data cleaning
 
-- Removed empty rows and duplicates, and stripped extra spaces
+- Checked for duplicates (none found), removed empty rows and stripped extra spaces
 - Fixed country name typos and differences (e.g. `Unisted States of America`, `USA`, `Russia`, `Korea, Rep.`)
 - Converted banded ranks such as `201-225` and `=12` to numbers
-- Removed `%`, `,` and `-` from Times columns and split the female:male ratio into two columns
-- Filled a few missing student statistics with the yearly median
+- Removed `%`, `,` and `-` from Times columns
+- Filled a few missing student statistics with the median
 - Left `total_score` missing where it isn't published (outside the Times top ~200 and the Shanghai top 100)
 
 ## Analysis (2015)
